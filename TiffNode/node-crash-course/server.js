@@ -19,6 +19,7 @@ const server = http.createServer((req, res) => {
 // set header content type
 res.setHeader('Content-Type', 'text/html');
 
+  //routing
 let path = './views/';
 switch(req.url) {
     case'/':
@@ -52,10 +53,8 @@ fs.readFile(path, (err, data) => {
         res.end();
     } 
         //res.write(data);
-        
         res.end(data);
-    }
-})
+      });
 });
 
 //localhost is the default value for 2nd argument
