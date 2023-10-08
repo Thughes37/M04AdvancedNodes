@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/Thughes37/M04AdvancedNodes#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0"
   }
 }
